@@ -41,6 +41,11 @@ body {
 .site-nav a:focus {
   color: var(--brand-color);
 }
+
+.site-nav .link.current {
+  color: var(--brand-color);
+}
+
 .auth-nav {
   font-weight: 500;
   font-size: 14px;
@@ -61,6 +66,9 @@ body {
 
 .hero {
   background-color: #2f303a;
+}
+
+.hero-title {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
@@ -144,7 +152,6 @@ body {
 }
 
 .team p {
-  font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -170,8 +177,7 @@ body {
 }
 
 .footer-contacts {
-  color: #fff;
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer a:hover,
@@ -213,8 +219,7 @@ body {
 }
 
 .portfolio p {
-  font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
